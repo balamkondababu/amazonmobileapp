@@ -20,7 +20,7 @@ public class Hooks extends BaseDriver {
         /**
          *  to setup all capabilities , launch the application
          */
-        setupAppium();
+        setup();
     }
 
     @After(order = 1)
@@ -42,7 +42,7 @@ public class Hooks extends BaseDriver {
         }
     }
 
-    @Before(order = 0)
+    @After(order = 0)
     public void closeDriver() {
         driver.quit();
     }
