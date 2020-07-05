@@ -1,7 +1,7 @@
 package utilities;
 
-import Pages.LoginPage;
-import Pages.SearchPage;
+import pages.LoginPage;
+import pages.SearchPage;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
@@ -31,6 +31,7 @@ public class BaseDriver {
         caps.setCapability(AndroidMobileCapabilityType.APP_PACKAGE,"com.amazon.mShop.android.shopping");
         caps.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY,"com.amazon.mShop.splashscreen.StartupActivity");
         caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
+        caps.setCapability(MobileCapabilityType.ORIENTATION,"PORTRAIT");
         driver = new AndroidDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub/"), caps);
     }
 

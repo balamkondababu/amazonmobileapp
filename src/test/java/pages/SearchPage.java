@@ -1,4 +1,4 @@
-package Pages;
+package pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,7 +19,7 @@ public class SearchPage extends BaseDriver {
     @FindBy(id="web_home_shop_by_department_label")
     private WebElement searchShopBy;
 
-    @FindBy(id="rs_search_src_text1")
+    @FindBy(id="rs_search_src_text")
     private WebElement searchField;
 
     @FindBy(id="iss_search_dropdown_item_suggestions")
@@ -34,17 +34,6 @@ public class SearchPage extends BaseDriver {
     @FindBy(id="item_title")
     private WebElement itemTitle;
 
-    @FindBy(xpath="//android.view.View[resource-id=''a-autoid-3]")
-    private WebElement buyButton;
-
-    @FindBy(className="android.view.View")
-    private WebElement productDescription;
-
-    @FindBy(xpath ="//*[@resource-id='titleExpanderContent']")
-    private WebElement productName;
-
-
-
     public SearchPage(){
         PageFactory.initElements(driver,this);
     }
@@ -57,10 +46,9 @@ public class SearchPage extends BaseDriver {
 
     public void searchForProduct(String product) throws InterruptedException {
         searchField.click();
-        Thread.sleep(2000);
         reusableMethods.waitUntilElementVisible(driver,searchField);
         searchField.sendKeys(product);
-        Thread.sleep(3000);
+        reusableMethods.waitUntilElementVisible(driver,itemSuggestions.get(0));
         itemSuggestions.get(0).click();
     }
 
@@ -79,11 +67,5 @@ public class SearchPage extends BaseDriver {
     public void selectProductFromSearchResults(String brand) {
         Log.info("selecting random product");
         reusableMethods.scrollToTextAndClick(driver,brand);
-        reusableMethods.waitUntilElementVisible(driver,productName);
-    }
-
-    public void addToCart(String addCart) {
-        Log.info("adding product to the cart");
-        reusableMethods.scrollToTextAndClick(driver,addCart);
     }
 }

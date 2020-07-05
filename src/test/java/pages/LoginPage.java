@@ -1,4 +1,4 @@
-package Pages;
+package pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -46,7 +46,6 @@ public class LoginPage extends BaseDriver {
     }
 
     public void enterEmail(String username) throws InterruptedException {
-        Thread.sleep(5000);
         Log.info("waiting for the element to be visible" + emailField );
         reusableMethods.waitUntilElementVisible(driver,emailField);
         emailField.clear();

@@ -52,7 +52,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Jul 5, 2020 01:02:24 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Jul 5, 2020 09:54:06 PM</span>
 				</a>
 			</li>
 			<li>
@@ -79,7 +79,6 @@
 				<ul id='tests-toggle' class='dropdown-content'>
 											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
 						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
-						<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -160,10 +159,10 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='61.538%'><span class='strong'>8</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='92.857%'><span class='strong'>13</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='7.692%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='30.769%'>4</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='7.143%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -179,13 +178,13 @@
 				
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>Search and Verify Product</span>
-						<span class='test-time'>Jul 5, 2020 01:02:24 PM</span>
+						<span class='test-name'>Validate search functionality in amazon android app</span>
+						<span class='test-time'>Jul 5, 2020 09:54:06 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='2' status='fail'>
-	<span class='duration right label'>0h 0m 43s+197ms</span>
+	<span class='duration right label'>0h 1m 32s+130ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">search for particular product and verify product Information</span>
@@ -255,19 +254,62 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='11' class='node when fail' status='fail'>
+		<li test-id='11' class='node when pass' status='pass'>
 			
 			<b>When</b>
 			
 			<span class="bdd-step-name">When I search for a "product"</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='12' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then I see search results for a product displayed</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='13' class='node and pass' status='pass'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I verify search results count displayed</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='14' class='node when pass' status='pass'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When I select random "brand" product from search results</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='15' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then I verify product information in product page</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='16' class='node and fail' status='fail'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I click on "Add to Cart"</span>
+			<ul class='screenshots right'>
+				<li><a data-featherlight="image" href="./screenshots/search_for_particular_product_and_verify_product_Information.png"><i class='material-icons'>panorama</i></a></li>
+			</ul>
 				<div class='pre'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: '3RVZKW2', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: com.amazon.mShop.splashscre..., appPackage: com.amazon.mShop.android.sh..., automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.splashscre..., appPackage: com.amazon.mShop.android.sh..., automationName: uiautomator2, deviceName: 5203087ef42fb495, platformName: android}, deviceApiLevel: 27, deviceManufacturer: samsung, deviceModel: SM-G610F, deviceName: 5203087ef42fb495, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 5203087ef42fb495, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: b19db454-800b-46ef-9f0c-0bd226759c75
-*** Element info: {Using=id, value=rs_search_src_text1}
+Session ID: 69b524ee-f651-4966-bfb7-f7fff562ddcf
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().textContains("Add to Cart"));}
 	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
@@ -284,57 +326,12 @@ Session ID: b19db454-800b-46ef-9f0c-0bd226759c75
 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
-	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy36.click(Unknown Source)
-	at Pages.SearchPage.searchForProduct(SearchPage.java:59)
-	at stepdefinitions.SearchStepDefinitions.iClickOnSearchAndSearchForAProduct(SearchStepDefinitions.java:30)
-	at ✽.When I search for a "product"(Search.feature:15)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at utilities.ReusableMethods.scrollToTextAndClick(ReusableMethods.java:25)
+	at pages.ProductPage.addToCart(ProductPage.java:57)
+	at stepdefinitions.ProductStepDefinitions.iClickOn(ProductStepDefinitions.java:25)
+	at ✽.And I click on "Add to Cart"(Search.feature:20)
 </pre></div>
-			
-		</li>
-		<li test-id='12' class='node then skip' status='skip'>
-			
-			<b>Then</b>
-			
-			<span class="bdd-step-name">Then I see search results for a product displayed</span>
-				<div class='pre'>skipped</div>
-			
-		</li>
-		<li test-id='13' class='node and skip' status='skip'>
-			
-			<b>And</b>
-			
-			<span class="bdd-step-name">And I verify search results count displayed</span>
-				<div class='pre'>skipped</div>
-			
-		</li>
-		<li test-id='14' class='node when skip' status='skip'>
-			
-			<b>When</b>
-			
-			<span class="bdd-step-name">When I select random "brand" product from search results</span>
-				<div class='pre'>skipped</div>
-			
-		</li>
-		<li test-id='15' class='node then skip' status='skip'>
-			
-			<b>Then</b>
-			
-			<span class="bdd-step-name">Then I click on "Add to Cart"</span>
-			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="./screenshots/search_for_particular_product_and_verify_product_Information.png"><i class='material-icons'>panorama</i></a></li>
-			</ul>
-				<div class='pre'>skipped</div>
 			
 		</li>
 	</ul>
@@ -409,16 +406,16 @@ Session ID: b19db454-800b-46ef-9f0c-0bd226759c75
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Jul 5, 2020 01:03:07 PM</td>
-                                                        <td class='linked' test-id='11'>Search and Verify Product.search for particular product and verify product Information.When I search for a "product"</td>
+                                                        <td>Jul 5, 2020 09:55:26 PM</td>
+                                                        <td class='linked' test-id='16'>Validate search functionality in amazon android app.search for particular product and verify product Information.And I click on "Add to Cart"</td>
                                                         <td><pre><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: '3RVZKW2', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: com.amazon.mShop.splashscre..., appPackage: com.amazon.mShop.android.sh..., automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.splashscre..., appPackage: com.amazon.mShop.android.sh..., automationName: uiautomator2, deviceName: 5203087ef42fb495, platformName: android}, deviceApiLevel: 27, deviceManufacturer: samsung, deviceModel: SM-G610F, deviceName: 5203087ef42fb495, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 5203087ef42fb495, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: b19db454-800b-46ef-9f0c-0bd226759c75
-*** Element info: {Using=id, value=rs_search_src_text1}
+Session ID: 69b524ee-f651-4966-bfb7-f7fff562ddcf
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().textContains("Add to Cart"));}
 	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
@@ -435,21 +432,11 @@ Session ID: b19db454-800b-46ef-9f0c-0bd226759c75
 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
-	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy36.click(Unknown Source)
-	at Pages.SearchPage.searchForProduct(SearchPage.java:59)
-	at stepdefinitions.SearchStepDefinitions.iClickOnSearchAndSearchForAProduct(SearchStepDefinitions.java:30)
-	at ✽.When I search for a "product"(Search.feature:15)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at utilities.ReusableMethods.scrollToTextAndClick(ReusableMethods.java:25)
+	at pages.ProductPage.addToCart(ProductPage.java:57)
+	at stepdefinitions.ProductStepDefinitions.iClickOn(ProductStepDefinitions.java:25)
+	at ✽.And I click on "Add to Cart"(Search.feature:20)
 </pre></pre></td>
                                                     </tr>
                                         </tbody>
@@ -488,25 +475,25 @@ Session ID: b19db454-800b-46ef-9f0c-0bd226759c75
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>13</div>
+					<div class='panel-lead'>14</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jul 5, 2020 01:02:24 PM</div>
+					<div class='panel-lead'>Jul 5, 2020 09:54:06 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jul 5, 2020 01:03:09 PM</div>
+			 		<div class='panel-lead'>Jul 5, 2020 09:55:41 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 44s+633ms</div>
+					<div class='panel-lead'>0h 1m 34s+583ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -556,14 +543,14 @@ Session ID: b19db454-800b-46ef-9f0c-0bd226759c75
 				infoChild: 0,
 				exceptionsChild: 1,
 				
-				passGrandChild: 8,
+				passGrandChild: 13,
 				failGrandChild: 1,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 4,
+				skipGrandChild: 0,
 				infoGrandChild: 0,
-				exceptionsGrandChild: 5,
+				exceptionsGrandChild: 1,
 			};
 		</script>
 		

@@ -45,3 +45,213 @@
 [INFO ] 2020-07-05 13:02:58.856 [main] Log - submitted login successfully
 [INFO ] 2020-07-05 13:03:07.704 [main] Log - asserting user on home page or not: true
 [INFO ] 2020-07-05 13:03:09.484 [main] Log - Test is Ending...
+[INFO ] 2020-07-05 20:34:52.641 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 20:35:28.483 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 20:35:45.267 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 20:35:48.347 [main] Log - asserting sign in page displayed or not:true
+[INFO ] 2020-07-05 20:35:54.002 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.xpath: //android.widget.EditText[@resource-id='ap_email_login']'
+[INFO ] 2020-07-05 20:36:17.044 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 20:36:31.852 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 20:36:34.460 [main] Log - asserting sign in page displayed or not:true
+[INFO ] 2020-07-05 20:36:40.013 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.xpath: //android.widget.EditText[@resource-id='ap_email_login']'
+[INFO ] 2020-07-05 20:36:42.151 [main] Log - enter email: bobby26227@gmail.com
+[INFO ] 2020-07-05 20:36:44.043 [main] Log - submitted email successfully
+[INFO ] 2020-07-05 20:36:48.731 [main] Log - enter email: bobby@123
+[INFO ] 2020-07-05 20:36:50.369 [main] Log - submitted login successfully
+[INFO ] 2020-07-05 20:36:58.573 [main] Log - asserting user on home page or not: true
+[INFO ] 2020-07-05 20:37:01.322 [main] Log - Test is Ending...
+[INFO ] 2020-07-05 20:37:27.381 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 20:37:36.484 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 20:37:52.830 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 20:37:54.447 [main] Log - asserting sign in page displayed or not:true
+[INFO ] 2020-07-05 20:38:01.083 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.xpath: //android.widget.EditText[@resource-id='ap_email_login']'
+[INFO ] 2020-07-05 20:38:03.280 [main] Log - enter email: bobby26227@gmail.com
+[INFO ] 2020-07-05 20:38:05.003 [main] Log - submitted email successfully
+[INFO ] 2020-07-05 20:38:09.668 [main] Log - enter email: bobby@123
+[INFO ] 2020-07-05 20:38:10.903 [main] Log - submitted login successfully
+[INFO ] 2020-07-05 20:38:19.137 [main] Log - asserting user on home page or not: true
+[INFO ] 2020-07-05 20:38:26.649 [main] Log - asserting search results displayed or not: true
+[INFO ] 2020-07-05 20:38:29.550 [main] Log - search results count: 95
+[INFO ] 2020-07-05 20:38:29.551 [main] Log - selecting random product
+[INFO ] 2020-07-05 20:38:43.848 [main] Log - Test is Ending...
+[INFO ] 2020-07-05 20:39:06.163 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 20:39:22.513 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 20:39:25.001 [main] Log - asserting sign in page displayed or not:true
+[INFO ] 2020-07-05 20:39:32.081 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.xpath: //android.widget.EditText[@resource-id='ap_email_login']'
+[INFO ] 2020-07-05 20:39:34.305 [main] Log - enter email: bobby26227@gmail.com
+[INFO ] 2020-07-05 20:39:35.531 [main] Log - submitted email successfully
+[INFO ] 2020-07-05 20:39:40.464 [main] Log - enter email: bobby@123
+[INFO ] 2020-07-05 20:39:42.187 [main] Log - submitted login successfully
+[INFO ] 2020-07-05 20:39:50.189 [main] Log - asserting user on home page or not: true
+[INFO ] 2020-07-05 20:39:57.540 [main] Log - asserting search results displayed or not: true
+[INFO ] 2020-07-05 20:40:01.402 [main] Log - search results count: 96
+[INFO ] 2020-07-05 20:40:01.403 [main] Log - selecting random product
+[INFO ] 2020-07-05 20:40:11.803 [main] Log - adding product to the cart
+[INFO ] 2020-07-05 20:40:28.613 [main] Log - Test is Ending...
+[INFO ] 2020-07-05 20:53:24.759 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 20:53:38.256 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 20:53:41.467 [main] Log - asserting sign in page displayed or not:true
+[INFO ] 2020-07-05 20:53:46.981 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.xpath: //android.widget.EditText[@resource-id='ap_email_login']'
+[INFO ] 2020-07-05 20:53:51.575 [main] Log - Test is Ending...
+[INFO ] 2020-07-05 20:54:02.054 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 20:54:17.130 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 20:54:19.818 [main] Log - asserting sign in page displayed or not:true
+[INFO ] 2020-07-05 20:54:25.477 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.xpath: //android.widget.EditText[@resource-id='ap_email_login']'
+[INFO ] 2020-07-05 20:54:27.568 [main] Log - enter email: bobby26227@gmail.com
+[INFO ] 2020-07-05 20:54:29.496 [main] Log - submitted email successfully
+[INFO ] 2020-07-05 20:54:33.946 [main] Log - enter email: bobby@123
+[INFO ] 2020-07-05 20:54:35.460 [main] Log - submitted login successfully
+[INFO ] 2020-07-05 20:54:43.747 [main] Log - asserting user on home page or not: true
+[INFO ] 2020-07-05 20:54:51.255 [main] Log - asserting search results displayed or not: true
+[INFO ] 2020-07-05 20:54:53.480 [main] Log - search results count: 93
+[INFO ] 2020-07-05 20:54:53.482 [main] Log - selecting random product
+[INFO ] 2020-07-05 20:55:20.308 [main] Log - Test is Ending...
+[INFO ] 2020-07-05 21:00:15.499 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 21:00:29.655 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 21:00:33.223 [main] Log - asserting sign in page displayed or not:true
+[INFO ] 2020-07-05 21:00:38.735 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.xpath: //android.widget.EditText[@resource-id='ap_email_login']'
+[INFO ] 2020-07-05 21:00:41.002 [main] Log - enter email: bobby26227@gmail.com
+[INFO ] 2020-07-05 21:00:42.815 [main] Log - submitted email successfully
+[INFO ] 2020-07-05 21:00:47.424 [main] Log - enter email: bobby@123
+[INFO ] 2020-07-05 21:00:48.673 [main] Log - submitted login successfully
+[INFO ] 2020-07-05 21:01:18.510 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 21:01:33.509 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 21:01:36.148 [main] Log - asserting sign in page displayed or not:true
+[INFO ] 2020-07-05 21:01:41.714 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.xpath: //android.widget.EditText[@resource-id='ap_email_login']'
+[INFO ] 2020-07-05 21:01:43.905 [main] Log - enter email: bobby26227@gmail.com
+[INFO ] 2020-07-05 21:01:45.379 [main] Log - submitted email successfully
+[INFO ] 2020-07-05 21:01:52.159 [main] Log - enter email: bobby@123
+[INFO ] 2020-07-05 21:01:53.665 [main] Log - submitted login successfully
+[INFO ] 2020-07-05 21:02:31.581 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 21:02:46.670 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 21:02:49.360 [main] Log - asserting sign in page displayed or not:true
+[INFO ] 2020-07-05 21:02:54.907 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.xpath: //android.widget.EditText[@resource-id='ap_email_login']'
+[INFO ] 2020-07-05 21:02:57.012 [main] Log - enter email: bobby26227@gmail.com
+[INFO ] 2020-07-05 21:02:58.793 [main] Log - submitted email successfully
+[INFO ] 2020-07-05 21:03:03.638 [main] Log - enter email: bobby@123
+[INFO ] 2020-07-05 21:03:05.297 [main] Log - submitted login successfully
+[INFO ] 2020-07-05 21:03:18.649 [main] Log - Test is Ending...
+[INFO ] 2020-07-05 21:50:13.263 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 21:50:29.518 [main] Log - platform name: Android
+[INFO ] 2020-07-05 21:50:29.634 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 21:50:33.510 [main] Log - asserting sign in page displayed or not:true
+[INFO ] 2020-07-05 21:50:39.485 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.xpath: //android.widget.EditText[@resource-id='ap_email_login']'
+[INFO ] 2020-07-05 21:50:41.688 [main] Log - enter email: bobby26227@gmail.com
+[INFO ] 2020-07-05 21:50:43.633 [main] Log - submitted email successfully
+[INFO ] 2020-07-05 21:50:48.219 [main] Log - enter email: bobby@123
+[INFO ] 2020-07-05 21:50:49.431 [main] Log - submitted login successfully
+[INFO ] 2020-07-05 21:50:59.327 [main] Log - asserting user on home page or not: true
+[INFO ] 2020-07-05 21:51:08.456 [main] Log - asserting search results displayed or not: true
+[INFO ] 2020-07-05 21:51:13.442 [main] Log - search results count: 94
+[INFO ] 2020-07-05 21:51:13.442 [main] Log - selecting random product
+[INFO ] 2020-07-05 21:51:32.463 [main] Log - Test is Ending...
+[INFO ] 2020-07-05 21:53:20.224 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 21:53:34.421 [main] Log - platform name: Android
+[INFO ] 2020-07-05 21:53:34.604 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 21:54:06.867 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 21:54:21.125 [main] Log - platform name: Android
+[INFO ] 2020-07-05 21:54:21.311 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 21:54:24.318 [main] Log - asserting sign in page displayed or not:true
+[INFO ] 2020-07-05 21:54:29.934 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.xpath: //android.widget.EditText[@resource-id='ap_email_login']'
+[INFO ] 2020-07-05 21:54:32.974 [main] Log - enter email: bobby26227@gmail.com
+[INFO ] 2020-07-05 21:54:34.646 [main] Log - submitted email successfully
+[INFO ] 2020-07-05 21:54:39.402 [main] Log - enter email: bobby@123
+[INFO ] 2020-07-05 21:54:41.076 [main] Log - submitted login successfully
+[INFO ] 2020-07-05 21:54:49.500 [main] Log - asserting user on home page or not: true
+[INFO ] 2020-07-05 21:54:56.503 [main] Log - asserting search results displayed or not: true
+[INFO ] 2020-07-05 21:54:59.879 [main] Log - search results count: 94
+[INFO ] 2020-07-05 21:54:59.880 [main] Log - selecting random product
+[INFO ] 2020-07-05 21:55:27.293 [main] Log - adding product to the cart
+[INFO ] 2020-07-05 21:55:41.487 [main] Log - Test is Ending...
+[INFO ] 2020-07-05 21:56:41.223 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 21:56:54.200 [main] Log - platform name: Android
+[INFO ] 2020-07-05 21:56:54.375 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 21:56:57.008 [main] Log - asserting sign in page displayed or not:true
+[INFO ] 2020-07-05 21:57:03.646 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.xpath: //android.widget.EditText[@resource-id='ap_email_login']'
+[INFO ] 2020-07-05 21:57:08.038 [main] Log - Test is Ending...
+[INFO ] 2020-07-05 21:57:15.728 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 21:57:28.582 [main] Log - platform name: Android
+[INFO ] 2020-07-05 21:57:28.744 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 21:57:31.340 [main] Log - asserting sign in page displayed or not:true
+[INFO ] 2020-07-05 21:57:39.183 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.xpath: //android.widget.EditText[@resource-id='ap_email_login']'
+[INFO ] 2020-07-05 21:57:41.649 [main] Log - enter email: bobby26227@gmail.com
+[INFO ] 2020-07-05 21:57:42.837 [main] Log - submitted email successfully
+[INFO ] 2020-07-05 21:58:03.071 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 21:58:17.741 [main] Log - platform name: Android
+[INFO ] 2020-07-05 21:58:17.930 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 21:58:20.589 [main] Log - asserting sign in page displayed or not:true
+[INFO ] 2020-07-05 21:58:26.109 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.xpath: //android.widget.EditText[@resource-id='ap_email_login']'
+[INFO ] 2020-07-05 21:58:28.473 [main] Log - enter email: bobby26227@gmail.com
+[INFO ] 2020-07-05 21:58:31.127 [main] Log - Test is Ending...
+[INFO ] 2020-07-05 21:58:39.224 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 21:58:52.772 [main] Log - platform name: Android
+[INFO ] 2020-07-05 21:58:52.970 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 21:58:56.041 [main] Log - asserting sign in page displayed or not:true
+[INFO ] 2020-07-05 21:59:01.558 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.xpath: //android.widget.EditText[@resource-id='ap_email_login']'
+[INFO ] 2020-07-05 21:59:04.239 [main] Log - enter email: bobby26227@gmail.com
+[INFO ] 2020-07-05 21:59:06.259 [main] Log - submitted email successfully
+[INFO ] 2020-07-05 21:59:11.050 [main] Log - enter email: bobby@123
+[INFO ] 2020-07-05 21:59:12.592 [main] Log - submitted login successfully
+[INFO ] 2020-07-05 21:59:20.791 [main] Log - asserting user on home page or not: true
+[INFO ] 2020-07-05 21:59:28.868 [main] Log - Test is Ending...
+[INFO ] 2020-07-05 21:59:46.013 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 22:00:00.502 [main] Log - platform name: Android
+[INFO ] 2020-07-05 22:00:00.675 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 22:00:03.337 [main] Log - asserting sign in page displayed or not:true
+[INFO ] 2020-07-05 22:00:09.890 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.xpath: //android.widget.EditText[@resource-id='ap_email_login']'
+[INFO ] 2020-07-05 22:00:12.394 [main] Log - enter email: bobby26227@gmail.com
+[INFO ] 2020-07-05 22:00:13.710 [main] Log - submitted email successfully
+[INFO ] 2020-07-05 22:00:18.659 [main] Log - enter email: bobby@123
+[INFO ] 2020-07-05 22:00:19.942 [main] Log - submitted login successfully
+[INFO ] 2020-07-05 22:00:29.070 [main] Log - asserting user on home page or not: true
+[INFO ] 2020-07-05 22:00:35.544 [main] Log - asserting search results displayed or not: true
+[INFO ] 2020-07-05 22:00:39.415 [main] Log - search results count: 93
+[INFO ] 2020-07-05 22:00:39.416 [main] Log - selecting random product
+[INFO ] 2020-07-05 22:00:59.029 [main] Log - Test is Ending...
+[INFO ] 2020-07-05 22:19:37.767 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 22:19:53.885 [main] Log - platform name: Android
+[INFO ] 2020-07-05 22:19:54.048 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 22:19:56.793 [main] Log - asserting sign in page displayed or not:true
+[INFO ] 2020-07-05 22:20:02.851 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.xpath: //android.widget.EditText[@resource-id='ap_email_login']'
+[INFO ] 2020-07-05 22:20:42.306 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 22:20:56.659 [main] Log - platform name: Android
+[INFO ] 2020-07-05 22:20:56.832 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 22:20:59.604 [main] Log - asserting sign in page displayed or not:true
+[INFO ] 2020-07-05 22:21:05.127 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.xpath: //android.widget.EditText[@resource-id='ap_email_login']'
+[INFO ] 2020-07-05 22:22:06.946 [main] Log - Test is Ending...
+[INFO ] 2020-07-05 22:26:11.823 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 22:26:25.386 [main] Log - platform name: Android
+[INFO ] 2020-07-05 22:26:25.461 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 22:26:28.498 [main] Log - asserting sign in page displayed or not:true
+[INFO ] 2020-07-05 22:26:34.729 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.xpath: //android.widget.EditText[@resource-id='ap_email_login']'
+[INFO ] 2020-07-05 22:31:50.954 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 22:32:05.306 [main] Log - platform name: Android
+[INFO ] 2020-07-05 22:32:05.500 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 22:32:08.185 [main] Log - asserting sign in page displayed or not:true
+[INFO ] 2020-07-05 22:32:14.336 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.xpath: //android.widget.EditText[@resource-id='ap_email_login']'
+[INFO ] 2020-07-05 22:37:27.717 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 22:37:28.627 [main] Log - Test is Ending...
+[INFO ] 2020-07-05 22:37:59.890 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 22:38:14.856 [main] Log - platform name: Android
+[INFO ] 2020-07-05 22:38:14.979 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 22:38:17.544 [main] Log - asserting sign in page displayed or not:true
+[INFO ] 2020-07-05 22:38:23.084 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.xpath: //android.widget.EditText[@resource-id='ap_email_login']'
+[INFO ] 2020-07-05 22:38:25.589 [main] Log - enter email: bobby26227@gmail.com
+[INFO ] 2020-07-05 22:38:26.917 [main] Log - submitted email successfully
+[INFO ] 2020-07-05 22:38:31.967 [main] Log - enter email: bobby@123
+[INFO ] 2020-07-05 22:38:33.191 [main] Log - submitted login successfully
+[INFO ] 2020-07-05 22:38:41.211 [main] Log - asserting user on home page or not: true
+[INFO ] 2020-07-05 22:38:48.162 [main] Log - asserting search results displayed or not: true
+[INFO ] 2020-07-05 22:38:51.692 [main] Log - search results count: 95
+[INFO ] 2020-07-05 22:38:51.692 [main] Log - selecting random product
+[INFO ] 2020-07-05 22:38:59.389 [main] Log - verifying Brand name in product page
+[INFO ] 2020-07-05 22:38:59.389 [main] Log - verifying product name in product page
+[INFO ] 2020-07-05 22:38:59.389 [main] Log - verifying product name in product page
+[INFO ] 2020-07-05 22:38:59.389 [main] Log - navigating to cart
+[INFO ] 2020-07-05 22:38:59.389 [main] Log - clicking in proceed to checkout
+[INFO ] 2020-07-05 22:38:59.396 [main] Log - verifying brand name in checkout page
+[INFO ] 2020-07-05 22:38:59.396 [main] Log - verifying product name in checkout page
+[INFO ] 2020-07-05 22:38:59.396 [main] Log - verifying product price in checkout page
+[INFO ] 2020-07-05 22:38:59.396 [main] Log - comparing product information between product page and checkout page
+[INFO ] 2020-07-05 22:38:59.396 [main] Log - closing drive: Android
+[INFO ] 2020-07-05 22:38:59.766 [main] Log - Test is Ending...

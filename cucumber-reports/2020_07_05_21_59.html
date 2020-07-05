@@ -52,7 +52,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Jul 5, 2020 01:01:41 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Jul 5, 2020 09:59:46 PM</span>
 				</a>
 			</li>
 			<li>
@@ -160,10 +160,10 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='23.077%'><span class='strong'>3</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='85.714%'><span class='strong'>12</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='7.692%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='69.231%'>9</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='7.143%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='7.143%'>1</span> others
 				</div>
 			</div>
 		</div>
@@ -179,13 +179,13 @@
 				
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>Search and Verify Product</span>
-						<span class='test-time'>Jul 5, 2020 01:01:41 PM</span>
+						<span class='test-name'>Validate search functionality in amazon android app</span>
+						<span class='test-time'>Jul 5, 2020 09:59:46 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='2' status='fail'>
-	<span class='duration right label'>0h 0m 29s+87ms</span>
+	<span class='duration right label'>0h 1m 10s+433ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">search for particular product and verify product Information</span>
@@ -215,20 +215,92 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='6' class='node then fail' status='fail'>
+		<li test-id='6' class='node then pass' status='pass'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then I enter "username"</span>
-				<div class='pre'><pre>org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='7' class='node and pass' status='pass'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I click on continue button</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='8' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then I enter "password"</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='9' class='node and pass' status='pass'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I click on Login button</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='10' class='node given pass' status='pass'>
+			
+			<b>Given</b>
+			
+			<span class="bdd-step-name">Given I am on the amazon app homepage</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='11' class='node when pass' status='pass'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When I search for a "product"</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='12' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then I see search results for a product displayed</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='13' class='node and pass' status='pass'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I verify search results count displayed</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='14' class='node when pass' status='pass'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When I select random "brand" product from search results</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='15' class='node then fail' status='fail'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then I verify product information in product page</span>
+				<div class='pre'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: '3RVZKW2', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: com.amazon.mShop.splashscre..., appPackage: com.amazon.mShop.android.sh..., automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.splashscre..., appPackage: com.amazon.mShop.android.sh..., automationName: uiautomator2, deviceName: 5203087ef42fb495, platformName: android}, deviceApiLevel: 27, deviceManufacturer: samsung, deviceModel: SM-G610F, deviceName: 5203087ef42fb495, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 5203087ef42fb495, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: dac71872-7e49-459f-ae7a-dddcdc988bd9
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+Session ID: 9f90d943-1dd4-43a6-aa35-15e3ef2c4590
+*** Element info: {Using=xpath, value=//android.view.View[@resource-id='atfRedesign_priceblock_priceToPay']}
+	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
@@ -240,98 +312,33 @@ Session ID: dac71872-7e49-459f-ae7a-dddcdc988bd9
 	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
 	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
-	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
-	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:317)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy36.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at utilities.ReusableMethods.waitUntilElementVisible(ReusableMethods.java:15)
-	at Pages.LoginPage.enterEmail(LoginPage.java:51)
-	at stepdefinitions.LoginStepDefinitions.iFillUsernameWith(LoginStepDefinitions.java:28)
-	at ✽.Then I enter "username"(Search.feature:8)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy36.getText(Unknown Source)
+	at pages.ProductPage.verifyProductPrice(ProductPage.java:46)
+	at stepdefinitions.ProductStepDefinitions.iVerifyProductInformationInProductPage(ProductStepDefinitions.java:20)
+	at ✽.Then I verify product information in product page(Search.feature:19)
 </pre></div>
 			
 		</li>
-		<li test-id='7' class='node and skip' status='skip'>
+		<li test-id='16' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
-			<span class="bdd-step-name">And I click on continue button</span>
-				<div class='pre'>skipped</div>
-			
-		</li>
-		<li test-id='8' class='node then skip' status='skip'>
-			
-			<b>Then</b>
-			
-			<span class="bdd-step-name">Then I enter "password"</span>
-				<div class='pre'>skipped</div>
-			
-		</li>
-		<li test-id='9' class='node and skip' status='skip'>
-			
-			<b>And</b>
-			
-			<span class="bdd-step-name">And I click on Login button</span>
-				<div class='pre'>skipped</div>
-			
-		</li>
-		<li test-id='10' class='node given skip' status='skip'>
-			
-			<b>Given</b>
-			
-			<span class="bdd-step-name">Given I am on the amazon app homepage</span>
-				<div class='pre'>skipped</div>
-			
-		</li>
-		<li test-id='11' class='node when skip' status='skip'>
-			
-			<b>When</b>
-			
-			<span class="bdd-step-name">When I search for a "product"</span>
-				<div class='pre'>skipped</div>
-			
-		</li>
-		<li test-id='12' class='node then skip' status='skip'>
-			
-			<b>Then</b>
-			
-			<span class="bdd-step-name">Then I see search results for a product displayed</span>
-				<div class='pre'>skipped</div>
-			
-		</li>
-		<li test-id='13' class='node and skip' status='skip'>
-			
-			<b>And</b>
-			
-			<span class="bdd-step-name">And I verify search results count displayed</span>
-				<div class='pre'>skipped</div>
-			
-		</li>
-		<li test-id='14' class='node when skip' status='skip'>
-			
-			<b>When</b>
-			
-			<span class="bdd-step-name">When I select random "brand" product from search results</span>
-				<div class='pre'>skipped</div>
-			
-		</li>
-		<li test-id='15' class='node then skip' status='skip'>
-			
-			<b>Then</b>
-			
-			<span class="bdd-step-name">Then I click on "Add to Cart"</span>
+			<span class="bdd-step-name">And I click on "Add to Cart"</span>
 			<ul class='screenshots right'>
 				<li><a data-featherlight="image" href="./screenshots/search_for_particular_product_and_verify_product_Information.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
@@ -395,7 +402,7 @@ Session ID: dac71872-7e49-459f-ae7a-dddcdc988bd9
 
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
-                                <span class='exception-name'>org.openqa.selenium.StaleElementReferenceException</span>
+                                <span class='exception-name'>org.openqa.selenium.NoSuchElementException</span>
                                 <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
                             </div>
                             <div class='exception-content hide'>
@@ -410,17 +417,17 @@ Session ID: dac71872-7e49-459f-ae7a-dddcdc988bd9
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Jul 5, 2020 01:02:02 PM</td>
-                                                        <td class='linked' test-id='6'>Search and Verify Product.search for particular product and verify product Information.Then I enter "username"</td>
-                                                        <td><pre><pre>org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+                                                        <td>Jul 5, 2020 10:00:44 PM</td>
+                                                        <td class='linked' test-id='15'>Validate search functionality in amazon android app.search for particular product and verify product Information.Then I verify product information in product page</td>
+                                                        <td><pre><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: '3RVZKW2', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: com.amazon.mShop.splashscre..., appPackage: com.amazon.mShop.android.sh..., automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.amazon.mShop.splashscre..., appPackage: com.amazon.mShop.android.sh..., automationName: uiautomator2, deviceName: 5203087ef42fb495, platformName: android}, deviceApiLevel: 27, deviceManufacturer: samsung, deviceModel: SM-G610F, deviceName: 5203087ef42fb495, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 5203087ef42fb495, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: dac71872-7e49-459f-ae7a-dddcdc988bd9
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+Session ID: 9f90d943-1dd4-43a6-aa35-15e3ef2c4590
+*** Element info: {Using=xpath, value=//android.view.View[@resource-id='atfRedesign_priceblock_priceToPay']}
+	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
@@ -432,26 +439,25 @@ Session ID: dac71872-7e49-459f-ae7a-dddcdc988bd9
 	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
 	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
-	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
-	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:317)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy36.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at utilities.ReusableMethods.waitUntilElementVisible(ReusableMethods.java:15)
-	at Pages.LoginPage.enterEmail(LoginPage.java:51)
-	at stepdefinitions.LoginStepDefinitions.iFillUsernameWith(LoginStepDefinitions.java:28)
-	at ✽.Then I enter "username"(Search.feature:8)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy36.getText(Unknown Source)
+	at pages.ProductPage.verifyProductPrice(ProductPage.java:46)
+	at stepdefinitions.ProductStepDefinitions.iVerifyProductInformationInProductPage(ProductStepDefinitions.java:20)
+	at ✽.Then I verify product information in product page(Search.feature:19)
 </pre></pre></td>
                                                     </tr>
                                         </tbody>
@@ -490,25 +496,25 @@ Session ID: dac71872-7e49-459f-ae7a-dddcdc988bd9
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>13</div>
+					<div class='panel-lead'>14</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jul 5, 2020 01:01:41 PM</div>
+					<div class='panel-lead'>Jul 5, 2020 09:59:46 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jul 5, 2020 01:02:12 PM</div>
+			 		<div class='panel-lead'>Jul 5, 2020 10:00:59 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 31s+39ms</div>
+					<div class='panel-lead'>0h 1m 12s+998ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -558,14 +564,14 @@ Session ID: dac71872-7e49-459f-ae7a-dddcdc988bd9
 				infoChild: 0,
 				exceptionsChild: 1,
 				
-				passGrandChild: 3,
+				passGrandChild: 12,
 				failGrandChild: 1,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 9,
+				skipGrandChild: 1,
 				infoGrandChild: 0,
-				exceptionsGrandChild: 10,
+				exceptionsGrandChild: 2,
 			};
 		</script>
 		

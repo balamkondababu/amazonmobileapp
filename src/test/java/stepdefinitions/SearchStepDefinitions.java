@@ -1,12 +1,13 @@
 package stepdefinitions;
 
-import Pages.SearchPage;
+import pages.SearchPage;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import utilities.BaseDriver;
 import utilities.DataLoader;
+import utilities.Log;
 
 import java.io.FileNotFoundException;
 import java.net.MalformedURLException;
@@ -17,7 +18,7 @@ public class SearchStepDefinitions extends BaseDriver {
 
     @Given("^Launch the Amazon app$")
     public void launch_the_amazon_app() {
-        System.out.println(driver.getCapabilities().getCapability("platformName"));
+        Log.info("platform name: "+driver.getCapabilities().getCapability("platformName"));
     }
     
     @Given("^I am on the amazon app homepage$")
@@ -50,8 +51,4 @@ public class SearchStepDefinitions extends BaseDriver {
         searchPage.selectProductFromSearchResults(DataLoader.getData("product.json",brand));
     }
 
-    @Then("^I click on \"([^\"]*)\"$")
-    public void iClickOn(String addCart) {
-        searchPage.addToCart(addCart);
-    }
 }
