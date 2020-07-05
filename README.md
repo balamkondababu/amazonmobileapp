@@ -35,8 +35,8 @@ stepdefinitions: step definitions for each page will be here and Hooks class her
 
 
 utilities: BaseDriver class to setup capabilities.
-           DataLoader class to read data from json files
-           Log class for print logs on console and file using log4j2 properties
+           DataLoader class to read data from json files.
+           Log class for print logs on console and file using log4j2 properties.
            Reusable methods contains mobile gestures and wait conditions which are used in this project.
          
 resources/features : contains feature files
