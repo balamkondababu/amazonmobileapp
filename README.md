@@ -46,7 +46,7 @@ resources/testdata : contains data in json files for login and search
 
 extent-config.xml : to customize the extent report
 
-log4j2.properties : configuration file to create loga in console and file
+log4j2.properties : configuration file to store logs in console and file
 
 src/java/TestRunner : TestRunner file contains step definitions path, feature file path. we can execute tests using this file.
 
