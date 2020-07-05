@@ -27,7 +27,7 @@ public class BaseDriver {
 
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability(MobileCapabilityType.DEVICE_NAME, "5203087ef42fb495");
-        //caps.setCapability(MobileCapabilityType.APP, fs.getAbsolutePath());
+        caps.setCapability(MobileCapabilityType.APP, fs.getAbsolutePath());
         caps.setCapability(AndroidMobileCapabilityType.APP_PACKAGE,"com.amazon.mShop.android.shopping");
         caps.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY,"com.amazon.mShop.splashscreen.StartupActivity");
         caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
