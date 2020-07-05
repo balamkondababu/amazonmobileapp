@@ -5,11 +5,12 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import utilities.BaseDriver;
+import utilities.Log;
 import utilities.ReusableMethods;
 
 import java.util.List;
 
-public class SearchAndCheckOutPage extends BaseDriver {
+public class SearchPage extends BaseDriver {
 
     ReusableMethods reusableMethods = new ReusableMethods();
 
@@ -40,16 +41,17 @@ public class SearchAndCheckOutPage extends BaseDriver {
     private WebElement productDescription;
 
     @FindBy(xpath ="//*[@resource-id='titleExpanderContent']")
-    private WebElement prodcutName;
+    private WebElement productName;
 
 
 
-    public SearchAndCheckOutPage(){
+    public SearchPage(){
         PageFactory.initElements(driver,this);
     }
 
     public void assertUserOnHomePage() {
         reusableMethods.waitUntilElementVisible(driver,searchShopBy);
+        Log.info("asserting user on home page or not: "+ searchShopBy.isDisplayed());
         Assert.assertTrue(searchShopBy.isDisplayed());
     }
 
@@ -62,7 +64,8 @@ public class SearchAndCheckOutPage extends BaseDriver {
         itemSuggestions.get(0).click();
     }
 
-    public void assertSearchDisplayedOrNot() {
+    public void assertSearchResultsDisplayedOrNot() {
+        Log.info("asserting search results displayed or not: "+ searchResults.isDisplayed());
         Assert.assertTrue(searchResults.isDisplayed());
     }
 
@@ -70,14 +73,17 @@ public class SearchAndCheckOutPage extends BaseDriver {
         reusableMethods.waitUntilElementVisible(driver,searchResultsCount);
         Assert.assertTrue(searchResultsCount.isDisplayed());
         itemCount = Integer.parseInt(searchResultsCount.getText().split(" ")[0].trim());
+        Log.info("search results count: "+ itemCount);
     }
 
     public void selectProductFromSearchResults(String brand) {
+        Log.info("selecting random product");
         reusableMethods.scrollToTextAndClick(driver,brand);
-        reusableMethods.waitUntilElementVisible(driver,prodcutName);
+        reusableMethods.waitUntilElementVisible(driver,productName);
     }
 
     public void addToCart(String addCart) {
+        Log.info("adding product to the cart");
         reusableMethods.scrollToTextAndClick(driver,addCart);
     }
 }

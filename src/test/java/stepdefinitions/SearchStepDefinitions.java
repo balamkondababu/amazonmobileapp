@@ -1,6 +1,6 @@
 package stepdefinitions;
 
-import Pages.SearchAndCheckOutPage;
+import Pages.SearchPage;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -11,9 +11,9 @@ import utilities.DataLoader;
 import java.io.FileNotFoundException;
 import java.net.MalformedURLException;
 
-public class SearchAndCheckoutStepDefinitions extends BaseDriver {
+public class SearchStepDefinitions extends BaseDriver {
 
-    SearchAndCheckOutPage searchAndCheckOutPage = new SearchAndCheckOutPage();
+    SearchPage searchPage = new SearchPage();
 
     @Given("^Launch the Amazon app$")
     public void launch_the_amazon_app() {
@@ -22,36 +22,36 @@ public class SearchAndCheckoutStepDefinitions extends BaseDriver {
     
     @Given("^I am on the amazon app homepage$")
     public void iAmOnTheAmazonAppHomepage() {
-        searchAndCheckOutPage.assertUserOnHomePage();
+        searchPage.assertUserOnHomePage();
     }
 
     @When("^I search for a \"([^\"]*)\"$")
     public void iClickOnSearchAndSearchForAProduct(String product) throws Throwable {
-        searchAndCheckOutPage.searchForProduct(DataLoader.getData("product.json",product));
+        searchPage.searchForProduct(DataLoader.getData("product.json",product));
     }
 
     @Then("^I see search results for a product displayed$")
     public void iSeeSearchResultsForAProduct() {
-        searchAndCheckOutPage.assertSearchDisplayedOrNot();
+        searchPage.assertSearchResultsDisplayedOrNot();
     }
 
     @Then("^I verify product name on search screen$")
     public void iVerifyProductNameOnSearchScreen() {
-        searchAndCheckOutPage.assertSearchDisplayedOrNot();
+        searchPage.assertSearchResultsDisplayedOrNot();
     }
 
     @And("^I verify search results count displayed$")
     public void iVerifySearchResultsCountDisplayed() {
-        searchAndCheckOutPage.assertAndGetSearchResultsCount();
+        searchPage.assertAndGetSearchResultsCount();
     }
 
     @When("^I select random \"([^\"]*)\" product from search results$")
     public void iSelectRandomProductFromSearchResults(String brand) throws MalformedURLException, InterruptedException, FileNotFoundException {
-        searchAndCheckOutPage.selectProductFromSearchResults(DataLoader.getData("product.json",brand));
+        searchPage.selectProductFromSearchResults(DataLoader.getData("product.json",brand));
     }
 
     @Then("^I click on \"([^\"]*)\"$")
     public void iClickOn(String addCart) {
-        searchAndCheckOutPage.addToCart(addCart);
+        searchPage.addToCart(addCart);
     }
 }

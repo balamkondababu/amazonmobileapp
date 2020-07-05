@@ -1,10 +1,9 @@
 package utilities;
 
 import Pages.LoginPage;
-import Pages.SearchAndCheckOutPage;
+import Pages.SearchPage;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.WebDriver;
@@ -19,7 +18,7 @@ public class BaseDriver {
 
     public static AppiumDriver<WebElement> driver = null;
     public LoginPage loginPage = null;
-    public SearchAndCheckOutPage searchAndCheckOutPage = null;
+    public SearchPage searchPage = null;
 
     public void setCapabilities() throws MalformedURLException {
 
@@ -39,7 +38,7 @@ public class BaseDriver {
         if(driver == null) {
             setCapabilities();
             loginPage = new LoginPage();
-            searchAndCheckOutPage = new SearchAndCheckOutPage();
+            searchPage = new SearchPage();
         }
         return driver;
     }

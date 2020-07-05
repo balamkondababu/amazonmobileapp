@@ -35,9 +35,9 @@ public class LoginPage extends BaseDriver {
     }
 
     public void assertUserOnSignInPage() throws InterruptedException {
-        Log.info("Waiting for the Element" + signInButton );
+        Log.info("waiting for the element to be visible" + signInButton );
         reusableMethods.waitUntilElementVisible(driver,signInButton);
-        Log.info("Asserting sign in page displayed or not:" + signInButton.isDisplayed() );
+        Log.info("asserting sign in page displayed or not:" + signInButton.isDisplayed() );
         Assert.assertTrue(signInPage.isDisplayed());
     }
 
@@ -47,22 +47,27 @@ public class LoginPage extends BaseDriver {
 
     public void enterEmail(String username) throws InterruptedException {
         Thread.sleep(5000);
+        Log.info("waiting for the element to be visible" + emailField );
         reusableMethods.waitUntilElementVisible(driver,emailField);
         emailField.clear();
+        Log.info("enter email: "+username);
         emailField.sendKeys(username);
     }
 
-    public void enterPassword(String username) {
+    public void enterPassword(String password) {
         reusableMethods.waitUntilElementClickable(driver,passwordField);
         passwordField.clear();
-        passwordField.sendKeys(username);
+        Log.info("enter email: "+password);
+        passwordField.sendKeys(password);
     }
 
-    public void submitSignIn() {;
-       signInSubmitButton.click();
+    public void submitSignIn() {
+        signInSubmitButton.click();
+        Log.info("submitted login successfully");
     }
 
     public void submitEmail() {
         continueButton.click();
+        Log.info("submitted email successfully");
     }
 }

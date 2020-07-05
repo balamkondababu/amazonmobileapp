@@ -22,3 +22,26 @@
 [INFO ] 2020-07-05 12:44:48.632 [main] Log - Waiting for the ElementProxy element for: DefaultElementLocator 'By.id: sign_in_button'
 [INFO ] 2020-07-05 12:44:51.972 [main] Log - Asserting sign in page displayed or not:true
 [INFO ] 2020-07-05 12:46:09.532 [main] Log - Test is Ending...
+[INFO ] 2020-07-05 13:00:26.439 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 13:00:43.681 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 13:00:46.756 [main] Log - asserting sign in page displayed or not:true
+[INFO ] 2020-07-05 13:00:52.324 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.xpath: //android.widget.EditText[@resource-id='ap_email_login']'
+[INFO ] 2020-07-05 13:00:54.508 [main] Log - enter email: test@gmail.com
+[INFO ] 2020-07-05 13:00:55.796 [main] Log - submitted email successfully
+[INFO ] 2020-07-05 13:01:00.672 [main] Log - enter email: test@123
+[INFO ] 2020-07-05 13:01:03.048 [main] Log - submitted login successfully
+[INFO ] 2020-07-05 13:01:41.802 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 13:01:58.500 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 13:02:02.257 [main] Log - asserting sign in page displayed or not:true
+[INFO ] 2020-07-05 13:02:07.977 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.xpath: //android.widget.EditText[@resource-id='ap_email_login']'
+[INFO ] 2020-07-05 13:02:12.873 [main] Log - Test is Ending...
+[INFO ] 2020-07-05 13:02:24.819 [main] Log - Test is Starting...
+[INFO ] 2020-07-05 13:02:39.376 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.id: sign_in_button'
+[INFO ] 2020-07-05 13:02:42.228 [main] Log - asserting sign in page displayed or not:true
+[INFO ] 2020-07-05 13:02:47.740 [main] Log - waiting for the element to be visibleProxy element for: DefaultElementLocator 'By.xpath: //android.widget.EditText[@resource-id='ap_email_login']'
+[INFO ] 2020-07-05 13:02:49.940 [main] Log - enter email: bobby26227@gmail.com
+[INFO ] 2020-07-05 13:02:51.892 [main] Log - submitted email successfully
+[INFO ] 2020-07-05 13:02:57.176 [main] Log - enter email: bobby@123
+[INFO ] 2020-07-05 13:02:58.856 [main] Log - submitted login successfully
+[INFO ] 2020-07-05 13:03:07.704 [main] Log - asserting user on home page or not: true
+[INFO ] 2020-07-05 13:03:09.484 [main] Log - Test is Ending...
