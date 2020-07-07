@@ -7,10 +7,11 @@ Project Structure
 		|_cucumber-reports
 		|	|_Screenshots
 		|_logs
+		|_src/main/java
+		|	|_Pages
+		|	|_Utilities
 		|_src/test/java
-		|	|_pages
 		|	|_StepDefinitions
-		|	|_utilities
 		|_TestRunner.java
 		|_src/test/resources
 		|	|_features
